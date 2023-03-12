@@ -1,0 +1,9 @@
+-- ^ - beginning of string
+-- $ - end of a string 
+-- | - for multiple strings
+-- [] - used for multiple characters
+
+USE sql_store; 
+SELECT * 
+FROM customers
+WHERE customers.first_name REGEXP 'ELKA|AMBUR'
