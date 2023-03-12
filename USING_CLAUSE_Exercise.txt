@@ -1,4 +1,4 @@
-
+USE sql_invoicing;
 SELECT p.date, c.name AS client, p.amount, pm.name
 FROM payments p
 JOIN clients c 
