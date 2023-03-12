@@ -1,0 +1,10 @@
+-- can use % for any number of characters 
+-- can use _ for single chracter 
+
+USE sql_store;
+SELECT *
+FROM customers
+WHERE last_name LIKE 'b____y'
+
+
+ 
