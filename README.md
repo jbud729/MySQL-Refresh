@@ -1,2 +1,2 @@
 # SQL-Refresh
-SQL Concepts and Exercises 
+MYSQL Concepts and Exercises 
