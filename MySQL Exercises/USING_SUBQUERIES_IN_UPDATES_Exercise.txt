@@ -1,0 +1,9 @@
+-- Exercise: Using subquery with customers table to update comments in orders table 
+-- where customers with more than 3000 points gets comment, "Gold customer".
+USE sql_store;
+UPDATE orders 
+SET comments = "Gold Customer"
+WHERE customer_id IN
+		(SELECT customer_id
+		 FROM customers
+		 WHERE points > 3000)
