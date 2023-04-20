@@ -1,2 +1,2 @@
-# SQL-Refresh
+# MYSQL-Refresh
 MYSQL Concepts and Exercises 
